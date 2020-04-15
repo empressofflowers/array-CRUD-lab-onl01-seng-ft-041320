@@ -3,13 +3,11 @@ def create_an_empty_array
 end
 
 def create_an_array
-  ["Earth", "Air", "Water", "Fire"]
+  the_four_elemnts = ["Earth", "Air", "Water", "Fire"]
 end
 
 def add_element_to_end_of_array(array, element)
-  four_elements = ["Earth", "Air", "Water", "Fire"]
-  four_elements << "Purple"
-    puts four_elements.inspect
+    the_four_elemnts << "purple"
 end
 
 def add_element_to_start_of_array(array, element)
