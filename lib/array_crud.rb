@@ -7,8 +7,7 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
-    the_four_elemnts = ["Earth", "Air", "Water", "Fire"]
-    the_four_elemnts.push("Spirit")
+    array.push("element")
 end
 
 def add_element_to_start_of_array(array, element)
