@@ -7,8 +7,8 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
-  ["Black", "White", "Red", "Green"]
-  add_element_to_end_of_array << "Yellow"
+  four_elements = ["Earth", "Air", "Water", "Fire"
+  four_elements << "Purple"
 end
 
 def add_element_to_start_of_array(array, element)
